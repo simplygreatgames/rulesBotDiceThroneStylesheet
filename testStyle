@@ -3,27 +3,28 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  border: 1px solid #000;
+  border: 1px solid lime;
   border-radius: 10px;
   z-index: 999;
+  background-color: hotpink;
 }
 
 .bpw-header-title {
-  color: #ffffff;
+  color: lime;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  color: #000000;
-  background-color: #ffffff;
+  color: lime;
+  background-color: hotpink;
 }
 
 .bpw-header-icon:hover {
-  fill: #ffffff;
+  fill: lime;
 }
 
 .bpw-header-container {
-  border: 1px solid #000;
-  background-color: #000000;
+  border: 1px solid lime;
+  background-color: hotpink;
   border-radius: 10px;
 }
 
@@ -32,21 +33,21 @@
 }
 
 a {
-  color: #ffffff;
+  color: lime;
 }
 
 a:hover {
-  color: #cccccc;
+  color: #00ff00;
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #cccccc;
+  background-color: lime;
   border-radius: 5px;
 }
 
 .bpw-send-button {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: lime;
+  color: hotpink;
 }
 
 .bpw-powered {
@@ -55,27 +56,27 @@ a:hover {
 
 .bpw-card-action {
   font-weight: bold;
-  color: #000000;
-  border: 1px solid #000;
+  color: hotpink;
+  border: 1px solid lime;
 }
 
 .bpw-card-container {
-  border: 1px solid #000;
+  border: 1px solid lime;
 }
 
 .bpw-keyboard-quick_reply {
-  background-color: #ffffff;
+  background-color: hotpink;
   padding: 10px;
 }
 
 .bpw-button {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: lime;
+  color: hotpink;
   font-size: 14px;
 }
 
 .bpw-widget-btn {
-  background-color: #000000;
+  background-color: lime;
 }
 
 .bpw-floating-button {

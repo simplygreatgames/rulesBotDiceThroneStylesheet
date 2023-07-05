@@ -1,47 +1,144 @@
-/* Widget layout: background color */
-.bpw-layout {
-  background-color: #f2f2f2;  /* Light grey */
+html {
+  font-size: 16px;
 }
 
-/* Header title: font color */
-.bpw-header-title {
-  color: #000000;  /* Black */
+/* Color Styling */
+.generated {
+  color: #ffffff;
 }
 
-/* Message bubbles: font color and background color */
-.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  color: #ffffff;  /* White */
-  background-color: #007bff;  /* Bot messages: Blue */
+#input-message {
+  color: #ffffff;
 }
 
-.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  color: #000000;  /* Black */
-  background-color: #e9e9e9;  /* User messages: Light grey */
-}
-
-/* Header icon and container: color and background color */
-.bpw-header-icon {
-  color: #ffffff;  /* White */
+.bpw-new-messages-indicator{
+  background-color: #2171b5;
+  color: #ffffff;
 }
 
 .bpw-header-container {
-  background-color: #007bff;  /* Blue */
+  margin: 10px 10px 0px 10px;
+  background: #005c99;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Send button: color and background color */
-.bpw-send-button {
-  color: #ffffff;  /* White */
-  background-color: #007bff;  /* Blue */
+.bpw-typing-bubble{
+  background: #ffffff;
 }
 
-/* Quick reply buttons: color and background color */
-.bpw-keyboard-quick_reply,
+.bpw-chat-bubble-content {
+  background-color: #2171b5;
+  border-radius: 15px;
+  border: 1px transparent;
+}
+
+.bpw-header-container {
+  border: 1px;
+  border-radius: 50px;
+}
+
+.bpw-date-container,
+.bpw-header-name,
+.bpw-header-subtitle {
+  color: #ffffff;
+}
+
+.bpw-layout {
+  width: 420px !important;
+  border: 1px;
+  height: 90vh;
+  border-radius: 50px;
+  right: 10%;
+  bottom: 5%;
+}
+
+/* Mobile Full Screen Styling */
+@media screen and (max-width: 767px) {
+  .bpw-layout {
+    width: 100% !important;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+  }
+}
+
+.bpw-header-icon,
+.bpw-header-icon svg,
+.bpw-header-icon svg path {
+  fill: #ffffff !important;
+}
+
+.bpw-header-container {
+  color: #005c99;
+}
+
+#input-message::placeholder {
+  color: #ffffff; 
+}
+
+.bpw-keyboard-single-choice{
+  background-color: #005c99;
+  border: none;
+}
+
+.bpw-button, .bpw-button-alt{
+  background-color: #002f6c;
+  color: #ffffff;
+}
+
 .bpw-button {
-  color: #ffffff;  /* White */
-  background-color: #007bff;  /* Blue */
+  border-radius: 50px;
+  border:none;
 }
 
-/* Widget button: background color */
-.bpw-widget-btn {
-  background-color: #007bff;  /* Blue */
+.bpw-button:hover, .bpw-button-alt:hover{
+  background-color: #2171b5;
+  color: #ffffff;
 }
+
+a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.bpw-chat-container {
+  background-color: #002f6c;
+}
+
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+  background-color: #2171b5;
+  color: #ffffff;
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+  background-color: #002f6c;
+  color: #ffffff;
+}
+
+.bpw-composer {
+  background-color: #002f6c;
+  border-top: 1px solid #2171b5;
+}
+
+/* Scrollbar Styling */
+.bpw-chat-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: #002f6c;
+}
+
+.bpw-chat-container::-webkit-scrollbar-thumb {
+  background-color: #2171b5;
+}
+
+.bpw-chat-container {
+  scrollbar-width: thin;
+  scrollbar-color: #2171b5 #002f6c;
+}
+
+.bpw-chat-container::-moz-scrollbar {
+  width: 10px;
+}
+
